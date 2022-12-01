@@ -27,7 +27,7 @@ const NotFound = () => {
             <h1>Ooops...</h1>
             <h2>That page cannot be found.</h2>
             <p>Go back to the <Link className="link" href="/">homepage</Link></p>
-            <p>You will be redirected in {timer}</p>
+            <p>You will be redirected to the homepage in {timer}</p>
         </div>
     )
 }
